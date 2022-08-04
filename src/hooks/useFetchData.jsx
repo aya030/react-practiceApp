@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 export default function useFetchData(url) {
-  const baseURL = url;
+  const baseUrl = 'https://jsonplaceholder.typicode.com';
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get(baseURL).then((response) => {
+    axios.get(baseUrl + url).then((response) => {
       setData(response.data);
     });
   }, [url]);

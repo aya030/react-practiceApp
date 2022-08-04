@@ -1,7 +1,7 @@
 import useFetchData from '../hooks/useFetchData';
 
 export default function Post() {
-  const { data } = useFetchData('https://jsonplaceholder.typicode.com/posts');
+  const { data } = useFetchData('/posts');
 
   return (
     <>
