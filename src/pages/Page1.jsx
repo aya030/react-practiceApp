@@ -7,12 +7,10 @@ import '../App.css';
 export default function Page1() {
   return (
     <>
-      <div>
-        <Header />
-        <MusicInfoProvider>
-          <MusicInfo />
-        </MusicInfoProvider>
-      </div>
+      <Header />
+      <MusicInfoProvider>
+        <MusicInfo />
+      </MusicInfoProvider>
     </>
   );
 }
