@@ -5,10 +5,8 @@ import '../App.css';
 
 export default function App() {
   return (
-    <>
       <BrowserRouter>
         <Router />
       </BrowserRouter>
-    </>
   );
 }
