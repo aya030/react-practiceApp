@@ -5,12 +5,8 @@ import '../App.css';
 
 export default function App() {
   return (
-    <>
-      <div>
-        <BrowserRouter>
-          <Router />
-        </BrowserRouter>
-      </div>
-    </>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   );
 }

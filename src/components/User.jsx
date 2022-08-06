@@ -1,7 +1,7 @@
 import useFetchData from '../hooks/useFetchData';
 
 export default function User() {
-  const { data } = useFetchData('https://jsonplaceholder.typicode.com/users');
+  const { data } = useFetchData('/users');
 
   return (
     <>
